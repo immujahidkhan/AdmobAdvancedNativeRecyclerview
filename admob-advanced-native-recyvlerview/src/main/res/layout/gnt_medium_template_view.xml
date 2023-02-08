@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <com.google.android.gms.ads.nativead.NativeAdView
         android:id="@+id/native_ad_view"
@@ -70,6 +71,7 @@
                         android:id="@+id/content"
                         android:layout_width="@dimen/gnt_no_size"
                         android:layout_height="@dimen/gnt_no_size"
+                        android:layout_marginStart="@dimen/gnt_default_margin"
                         android:layout_marginLeft="@dimen/gnt_default_margin"
                         android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -82,6 +84,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/gnt_no_size"
                             android:layout_weight="0.5"
+                            android:background="@color/gnt_white"
+                            android:gravity="left"
                             android:orientation="horizontal"
                             app:layout_constraintBottom_toTopOf="@+id/row_two"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -90,7 +94,7 @@
 
                             <TextView
                                 android:id="@+id/primary"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_marginStart="@dimen/gnt_no_margin"
                                 android:layout_marginTop="@dimen/gnt_no_margin"
@@ -104,7 +108,7 @@
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="parent"
-                                app:layout_constraintTop_toTopOf="parent" />
+                                app:layout_constraintTop_toTopOf="parent"></TextView>
                         </LinearLayout>
 
                         <LinearLayout
@@ -137,16 +141,17 @@
 
                             <RatingBar
                                 android:id="@+id/rating_bar"
-                                style="@style/Widget.AppCompat.RatingBar.Small"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
+                                style="?android:attr/ratingBarStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/gnt_no_margin"
                                 android:layout_marginTop="@dimen/gnt_no_margin"
                                 android:layout_marginEnd="@dimen/gnt_no_margin"
                                 android:layout_marginBottom="@dimen/gnt_no_margin"
                                 android:background="@color/gnt_white"
                                 android:lines="1"
-                                android:numStars="0"
+                                android:numStars="5"
+                                android:stepSize="0.1"
                                 android:textColor="@color/gnt_gray"
                                 android:textSize="@dimen/gnt_text_size_small"
                                 app:layout_constraintBottom_toBottomOf="parent"
@@ -158,7 +163,7 @@
 
                             <TextView
                                 android:id="@+id/secondary"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:layout_marginStart="@dimen/gnt_no_margin"
                                 android:layout_marginTop="@dimen/gnt_no_margin"
@@ -189,6 +194,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/gnt_no_size"
                 android:layout_marginBottom="@dimen/gnt_default_margin"
+                android:paddingStart="@dimen/gnt_default_margin"
                 android:paddingLeft="@dimen/gnt_default_margin"
                 android:paddingBottom="@dimen/gnt_default_margin"
                 app:layout_constraintBottom_toTopOf="@+id/cta"
@@ -196,7 +202,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/middle" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/cta"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -210,21 +216,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/body" />
-
-            <TextView
-                android:id="@+id/ad"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@drawable/gnt_rounded_corners_shape"
-                android:gravity="center"
-                android:padding="6dp"
-                android:text="AD"
-                android:textColor="@color/gnt_ad_green"
-                android:textSize="10sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.gms.ads.nativead.NativeAdView>
