@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AdmobAdvancedNativeRecyclerview.iml" filepath="$PROJECT_DIR$/.idea/AdmobAdvancedNativeRecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admob-advanced-native-recyvlerview/AdmobAdvancedNativeRecyclerview.admob-advanced-native-recyvlerview.iml" filepath="$PROJECT_DIR$/.idea/modules/admob-advanced-native-recyvlerview/AdmobAdvancedNativeRecyclerview.admob-advanced-native-recyvlerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admob-advanced-native-recyvlerview/AdmobAdvancedNativeRecyclerview.admob-advanced-native-recyvlerview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/admob-advanced-native-recyvlerview/AdmobAdvancedNativeRecyclerview.admob-advanced-native-recyvlerview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admob-advanced-native-recyvlerview/AdmobAdvancedNativeRecyclerview.admob-advanced-native-recyvlerview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/admob-advanced-native-recyvlerview/AdmobAdvancedNativeRecyclerview.admob-advanced-native-recyvlerview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/admob-advanced-native-recyvlerview/AdmobAdvancedNativeRecyclerview.admob-advanced-native-recyvlerview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/admob-advanced-native-recyvlerview/AdmobAdvancedNativeRecyclerview.admob-advanced-native-recyvlerview.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AdmobAdvancedNativeRecyclerview.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AdmobAdvancedNativeRecyclerview.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AdmobAdvancedNativeRecyclerview.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AdmobAdvancedNativeRecyclerview.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AdmobAdvancedNativeRecyclerview.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AdmobAdvancedNativeRecyclerview.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AdmobAdvancedNativeRecyclerview.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AdmobAdvancedNativeRecyclerview.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
