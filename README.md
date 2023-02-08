@@ -22,7 +22,7 @@ Step 2 : 
 
 Add this in your app level gradle dependencies file :
 
-    implementation 'com.github.daoibrahim:AdmobAdvancedNativeRecyclerview:1.0.0'
+        implementation 'com.github.immujahidkhan:AdmobAdvancedNativeRecyclerview:1.0.0'
 
 Step 3 :
 Build the native Ad adapter from your current RecyclerView adapter :
@@ -38,13 +38,4 @@ Build the native Ad adapter from your current RecyclerView adapter :
     recyclerView.setAdapter(admobNativeAdAdapter);//set your RecyclerView adapter with the admobNativeAdAdapter
 
 
-And voilà!!! Completed.
-For detailed example, see the sample project.
-
-It took me so much time to do this free library for you. If i saved your day, you can consider making a donation 
-
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2G7BP77AHNSHE)
-
-I will really appreciate.
-
-Enjoy!!!
+Credit and Thanks goes to daoibrahim
