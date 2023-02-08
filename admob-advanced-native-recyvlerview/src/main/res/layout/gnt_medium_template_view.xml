@@ -104,7 +104,7 @@
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="parent"
-                                app:layout_constraintTop_toTopOf="parent"/>
+                                app:layout_constraintTop_toTopOf="parent" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -133,10 +133,11 @@
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent"/>
+                                app:layout_constraintTop_toTopOf="parent" />
 
                             <RatingBar
                                 android:id="@+id/rating_bar"
+                                style="@style/Widget.AppCompat.RatingBar.Small"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_marginStart="@dimen/gnt_no_margin"
@@ -171,7 +172,7 @@
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toEndOf="@id/ad_notification_view"
-                                app:layout_constraintTop_toTopOf="parent"/>
+                                app:layout_constraintTop_toTopOf="parent" />
 
                         </LinearLayout>
 
@@ -209,6 +210,21 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/body" />
+
+            <TextView
+                android:id="@+id/ad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/gnt_rounded_corners_shape"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="AD"
+                android:textColor="@color/gnt_ad_green"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.gms.ads.nativead.NativeAdView>

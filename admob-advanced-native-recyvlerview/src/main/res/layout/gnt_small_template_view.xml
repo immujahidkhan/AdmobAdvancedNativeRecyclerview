@@ -15,7 +15,6 @@
             android:background="@drawable/gnt_outline_shape">
 
             <androidx.constraintlayout.widget.ConstraintLayout
-
                 android:id="@+id/background"
                 android:layout_width="@dimen/gnt_no_size"
                 android:layout_height="@dimen/gnt_no_size"
@@ -174,6 +173,20 @@
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
+                <TextView
+                    android:id="@+id/ad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/gnt_rounded_corners_shape"
+                    android:gravity="center"
+                    android:padding="6dp"
+                    android:text="AD"
+                    android:textColor="@color/gnt_ad_green"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

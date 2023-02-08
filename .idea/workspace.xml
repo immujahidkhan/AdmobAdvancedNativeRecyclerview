@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39eb60f2-63cb-4eff-a936-8031f6d8f6f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admob-advanced-native-recyvlerview/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/admob-advanced-native-recyvlerview/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/admob-advanced-native-recyvlerview/AdmobAdvancedNativeRecyclerview.admob-advanced-native-recyvlerview.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/admob-advanced-native-recyvlerview/AdmobAdvancedNativeRecyclerview.admob-advanced-native-recyvlerview.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/AdmobAdvancedNativeRecyclerview.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/AdmobAdvancedNativeRecyclerview.app.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admob-advanced-native-recyvlerview/src/main/res/layout/gnt_custom_medium_template_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admob-advanced-native-recyvlerview/src/main/res/layout/gnt_custom_medium_template_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admob-advanced-native-recyvlerview/src/main/res/layout/gnt_medium_template_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admob-advanced-native-recyvlerview/src/main/res/layout/gnt_medium_template_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admob-advanced-native-recyvlerview/src/main/res/layout/gnt_small_template_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admob-advanced-native-recyvlerview/src/main/res/layout/gnt_small_template_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admob-advanced-native-recyvlerview/src/main/res/layout/item_admob_native_ad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admob-advanced-native-recyvlerview/src/main/res/layout/item_admob_native_ad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +53,7 @@
     <property name="cidr.known.project.marker" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="AdmobAdvancedNativeRecyclerview.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
